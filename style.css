@@ -1,0 +1,73 @@
+.pal {
+    color:#183540;
+    color:#54828C;
+    color:#9BBCBF;
+    color:#D9B384;
+    color:#BF712C;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#183540, #54828C);
+    height: 100%;
+}
+
+.pocket {
+    
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+
+    width: 40%;
+    height: 40%;
+
+    background-image: 
+      linear-gradient(45deg, #BF712C 49%, transparent 51%);
+    box-shadow: -7px 7px 4px 2px black;
+
+    border: 2px dashed #D9B384;
+    border-top: none;
+    border-right: none;
+    
+}
+
+.pocket img {
+    width: 110%;
+    position: absolute;
+
+    left: 5%;
+    bottom: 5%;
+
+    transform-origin: left bottom;
+
+    border: 20px solid #9BBCBF;
+    box-shadow: 0 0 3px 3px #54828C;
+}
+
+.pocket img:nth-child(1) {
+    transform: rotate(-3.5deg);
+}
+
+.pocket img:nth-child(3) {
+    transform: rotate(3.5deg);
+}
+
+.pocket .top {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 50%;
+    height: 50%;
+
+    background-image: 
+      linear-gradient(45deg, #BF712C 48%, transparent 52%);
+    box-shadow: -7px 7px 4px 2px black;
+
+    border: 2px dashed #D9B384;
+    border-top: none;
+    border-right: none;
+}
